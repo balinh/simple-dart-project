@@ -1,0 +1,38 @@
+
+<div class="container">
+    <form id="contact" action="" method="post">
+        <h3>Zalo xác thực nhóm</h3>
+        <h4><sup>*</sup> Vui lòng điền đầy đủ thông tin</h4>
+        <fieldset>
+            <span class="label1">Tên nhóm <sup>*</sup>:</span>
+            <input placeholder="Tên nhóm" type="text" tabindex="1" required disabled>
+        </fieldset>
+        <fieldset>
+            <span class="label1">Loại nhóm <sup>*</sup>:</span>
+            <select placeholder="Loại nhóm" name="loainhom" form="contact" required autofocus
+                style="height:40px; background:#FFF;">
+                <option value="friendship">Bạn bè</option>
+                <option value="event">Sự kiện</option>
+                <option value="hobby">Sở thích</option>
+                <option value="buyandsell">Mua bán</option>
+                <option value="school">Trường học</option>
+                <option value="organization">Tổ chức</option>
+                <option value="project">Dự án</option>
+                <option value="local">Hội đồng hương</option>
+                <option value="neighborhood">Hội cư dân</option>
+                <option value="miscellaneous">Khác</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            Thông tin nhóm <sup>*</sup>:
+            <textarea cols="1" rows="5" placeholder="Tên nhóm" type="text" tabindex="1" required autofocus>
+    </textarea>
+        </fieldset>
+
+        <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="btn01" (click)="sendInfo()">Gửi thông
+                tin</button>
+        </fieldset>
+        <div class="info">© Copyright <span id="year">2019</span> Zalo. All Rights Reserved.</div>
+    </form>
+</div>

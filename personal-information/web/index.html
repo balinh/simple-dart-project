@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Zalo - Chứng thực người dùng</title>
+  <link rel="stylesheet" type="text/css" href="css/screen.css">
+  <link rel="icon" type="image/svg" href="images/logo_zalo.svg">
+  <style>
+    .logo {
+      text-align: center;
+    }
+
+    .logo img {
+      height: 30px;
+      margin-top: 30px;
+    }
+  </style>
+  <script>
+    window.console = window.console || function (t) { };
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+
+  <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+  <my-app>Loading...</my-app>
+</body>
+
+</html>

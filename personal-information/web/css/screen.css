@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:16px;vertical-align:baseline;background:transparent;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body {color:#4A4A4A; font-family:Roboto, Helvetica, sans-serif; font: -apple-system-body; line-height:22px;}
+html {height:100%;}
+body {height:100%; text-align:center; margin:0; padding:0; background:url(../images/im_zalo_bg.png) bottom right no-repeat; background-size: 50%;}
+a {text-decoration:none; }
+
+#header {background:#F6F6F6; text-align:center; font-size:17px; font-weight:bold; color:#222222; height:48px; line-height: 48px; border-bottom:1px solid #EEE;}
+
+#content { padding:0 35px;}
+  .imwarning {padding-top:45px; text-align: center;}
+  .imwarning img {width:110px; margin:0 auto;}
+  .immaintenance, .imclosed {padding-top:45px; text-align: center;}
+  .immaintenance img, .imclosed img {width:140px; margin:0 auto;}
+  .msgtitle {color:#222222; margin:24px 0 18px 0; font-size:20px; font-weight:bold;}
+  .msgcontent {color:#666666; line-height: 25px !important; margin:0 0 30px 0; font-size:16px;}
+
+.msgcta {text-align:center;}
+.btn01 {margin-bottom:5px; min-width:200px; padding:12px 28px; font-weight:bold; color:#FFF; font-size:15px; border-radius:50px; display:inline-block;
+  background-image: linear-gradient(to right, #0085FF 0%, #00ABFF 100%);
+}
+.btn02 {padding:12px 28px;  min-width:200px;  font-weight:bold; color:#717880; font-size:15px; border-radius:50px; display:inline-block; background:#F6F6F6;}
